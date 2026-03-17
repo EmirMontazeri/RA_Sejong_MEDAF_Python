@@ -51,7 +51,7 @@ def main(options):
     else:
         raise NotImplementedError()
     
-    now_time = datetime.datetime.now().strftime("%m%d_%H:%M")
+    now_time = datetime.datetime.now().strftime("%m%d_%H-%M")
     log_path = './logs/osr' + '/' + options['dataset'] + '/'
     ensure_dir(log_path)
     
@@ -80,7 +80,7 @@ def main(options):
 def trainLoop(options):
     
     train_loader, test_loader, out_loader = getLoader(options)
-    now_time = datetime.datetime.now().strftime("%m%d_%H:%M")
+    now_time = datetime.datetime.now().strftime("%m%d_%H-%M")
     ckpt_path = './ckpt/osr' + '/' + options['dataset'] + '/' + now_time
     ensure_dir(ckpt_path)
     model = get_model(options)
@@ -136,7 +136,7 @@ def trainLoop(options):
                     os.remove(last_log_path)
     
     result_list = evaluation(model, test_loader, out_loader, **options)    
-    print("\D-O-N-E!/ =>\nLast ACC:", result_list[0], " Last AUROC:", result_list[1]," Last F1-score:", result_list[4])
+    print("D-O-N-E! =>\nLast ACC:", result_list[0], " Last AUROC:", result_list[1]," Last F1-score:", result_list[4])
     return result_list
 
 
