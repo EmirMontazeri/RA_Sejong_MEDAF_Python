@@ -43,19 +43,22 @@ class CIFAR10_OSR(object):
         trainset = CIFAR10_Filter(root=dataroot, train=True, download=True, transform=train_transform)
         trainset.__Filter__(known=self.known)
         self.train_loader = torch.utils.data.DataLoader(
-            trainset, batch_size=batch_size, shuffle=True, num_workers=options['num_workers'], pin_memory=pin_memory
+            trainset, batch_size=batch_size, shuffle=True, num_workers=options['num_workers'], pin_memory=pin_memory, 
+            persistent_workers=True
         )
 
         testset = CIFAR10_Filter(root=dataroot, train=False, download=True, transform=transform)        
         testset.__Filter__(known=self.known)
         self.test_loader = torch.utils.data.DataLoader(
-            testset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            testset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory, 
+            persistent_workers=True
         )
 
         outset = CIFAR10_Filter(root=dataroot, train=False, download=True, transform=transform)
         outset.__Filter__(known=self.unknown)
         self.out_loader = torch.utils.data.DataLoader(
             outset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         print('Train Num: ', len(trainset), 'Test Num: ', len(testset), 'Outlier Num: ', len(outset))
@@ -88,7 +91,8 @@ class CIFAR100_OSR(object):
         testset = CIFAR100_Filter(root=dataroot, train=False, download=True, transform=transform)
         testset.__Filter__(known=self.known)
         self.test_loader = torch.utils.data.DataLoader(
-            testset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            testset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory, 
+            persistent_workers=True
         )
         
 
@@ -124,18 +128,21 @@ class SVHN_OSR(object):
         trainset.__Filter__(known=self.known)
         self.train_loader = torch.utils.data.DataLoader(
             trainset, batch_size=batch_size, shuffle=True, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         testset = SVHN_Filter(root=dataroot, split='test', download=True, transform=transform)
         testset.__Filter__(known=self.known)
         self.test_loader = torch.utils.data.DataLoader(
             testset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         outset = SVHN_Filter(root=dataroot, split='test', download=True, transform=transform)
         outset.__Filter__(known=self.unknown)
         self.out_loader = torch.utils.data.DataLoader(
             outset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         print('Train Num: ', len(trainset), 'Test Num: ', len(testset), 'Outlier Num: ', len(outset))
@@ -175,18 +182,21 @@ class Tiny_ImageNet_OSR(object):
         trainset.__Filter__(known=self.known)
         self.train_loader = torch.utils.data.DataLoader(
             trainset, batch_size=batch_size, shuffle=True, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         testset = Tiny_ImageNet_Filter(os.path.join(dataroot, 'tiny-imagenet-200', 'val'), transform)
         testset.__Filter__(known=self.known)
         self.test_loader = torch.utils.data.DataLoader(
             testset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         outset = Tiny_ImageNet_Filter(os.path.join(dataroot, 'tiny-imagenet-200', 'val'), transform)
         outset.__Filter__(known=self.unknown)
         self.out_loader = torch.utils.data.DataLoader(
             outset, batch_size=batch_size, shuffle=False, num_workers=options['num_workers'], pin_memory=pin_memory,
+            persistent_workers=True
         )
 
         print('Train Num: ', len(trainset), 'Test Num: ', len(testset), 'Outlier Num: ', len(outset))

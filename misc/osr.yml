@@ -14,7 +14,7 @@ plus_num   : 10
 id_set     : "cifar10"     
 ood_set    : "svhn"        
 
-num_workers: 2
+num_workers: 4
 epoch_num  : 150              
 batch_size : 128              
 save_step  : 10               
