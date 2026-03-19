@@ -164,3 +164,13 @@ ckpt/osr/cifar10/0318_12-25/epoch_150.pth
 ckpt/osr/cifar10/0318_11-20/epoch_150.pth
 ckpt/osr/cifar10/0318_10-15/epoch_150.pth
 ckpt/osr/cifar10/0318_09-09/epoch_150.pth
+ckpt/osr/cifar100/0319_11-26/epoch_150.pth
+ckpt/osr/cifar100/0319_12-08/epoch_150.pth
+ckpt/osr/cifar100/0319_12-51/epoch_150.pth
+ckpt/osr/cifar100/0319_13-33/epoch_150.pth
+ckpt/osr/cifar100/0319_14-16/epoch_150.pth
+datasets/cifar-100-python.tar.gz
+datasets/cifar-100-python/file.txt~
+datasets/cifar-100-python/meta
+datasets/cifar-100-python/test
+datasets/cifar-100-python/train
