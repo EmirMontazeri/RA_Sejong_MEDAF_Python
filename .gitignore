@@ -174,3 +174,10 @@ datasets/cifar-100-python/file.txt~
 datasets/cifar-100-python/meta
 datasets/cifar-100-python/test
 datasets/cifar-100-python/train
+datasets/test_32x32.mat
+datasets/train_32x32.mat
+ckpt/osr/svhn/0324_12-01/epoch_150.pth
+ckpt/osr/svhn/0324_13-52/epoch_150.pth
+ckpt/osr/svhn/0324_15-19/epoch_150.pth
+ckpt/osr/svhn/0324_16-58/epoch_150.pth
+ckpt/osr/svhn/0324_18-28/epoch_150.pth
