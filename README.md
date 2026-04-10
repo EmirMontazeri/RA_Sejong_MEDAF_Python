@@ -5,8 +5,8 @@ Official PyTorch Implementation of Our Work *[AAAI2024] Exploring Diverse Repres
 [[arXiv](https://arxiv.org/pdf/2401.06521.pdf)]
 
 
-## TestRun1
-### TestRun1 Environment
+## TestRun2
+### TestRun2 Environment
 
 - Python 3.14.0
 - Pytorch 2.10.0
@@ -19,13 +19,9 @@ Official PyTorch Implementation of Our Work *[AAAI2024] Exploring Diverse Repres
 - PyYAML
 - scikit_learn
 
-### Dataset
+### Description
 
-Before starting the model training, you need to modify the paths of the datasets in `osr_loader.py`. 
-
-Apart from common datasets (CIFAR10, SVHN, CIFAR100), the rest of the datasets need to be manually downloaded and placed in the correct path.
-
-The pre-defined split information is in `misc/util.py`.
+Testing different ~score_wgts~ from the ~osr.yml~ file.
 
 ### Train
 
