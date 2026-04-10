@@ -21,7 +21,7 @@ Official PyTorch Implementation of Our Work *[AAAI2024] Exploring Diverse Repres
 
 ### Description
 
-Testing different ~score_wgts~ from the ~osr.yml~ file.
+Testing different `score_wgts` from the `osr.yml~ file`.
 
 ### Train
 
