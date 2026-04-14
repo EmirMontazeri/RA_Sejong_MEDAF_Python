@@ -5,7 +5,7 @@ resume     : False
 ckpt       : "_"
 
 loss_wgts  : [0.7,1.0,0.01]
-score_wgts : [0.5,0.5,1]           
+score_wgts : [0.5,0.5,0]           
 branch_opt : -1
 gate_temp  : 100
 
