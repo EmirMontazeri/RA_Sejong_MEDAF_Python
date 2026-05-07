@@ -1,0 +1,6 @@
+ResNet34 - Combo
+SPLIT[1|5] => Accuracy: [97.225], AUROC: [0.962], AUPR_IN: [0.990], AUPR_OUT: [0.855], F1-score: [0.909]
+SPLIT[2|5] => Accuracy: [97.650], AUROC: [0.951], AUPR_IN: [0.987], AUPR_OUT: [0.827], F1-score: [0.900]
+SPLIT[3|5] => Accuracy: [97.175], AUROC: [0.923], AUPR_IN: [0.978], AUPR_OUT: [0.767], F1-score: [0.875]
+SPLIT[4|5] => Accuracy: [97.275], AUROC: [0.942], AUPR_IN: [0.985], AUPR_OUT: [0.818], F1-score: [0.890]
+SPLIT[5|5] => Accuracy: [96.950], AUROC: [0.958], AUPR_IN: [0.989], AUPR_OUT: [0.837], F1-score: [0.905]
