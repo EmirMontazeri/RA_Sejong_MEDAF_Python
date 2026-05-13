@@ -5,8 +5,8 @@ Official PyTorch Implementation of Our Work *[AAAI2024] Exploring Diverse Repres
 [[arXiv](https://arxiv.org/pdf/2401.06521.pdf)]
 
 
-## TestRun2
-### TestRun2 Environment
+## Experimental Run
+### Environment
 
 - Python 3.14.0
 - Pytorch 2.10.0
@@ -21,15 +21,15 @@ Official PyTorch Implementation of Our Work *[AAAI2024] Exploring Diverse Repres
 
 ### Description
 
-Testing different `score_wgts` from the `osr.yml~ file`.
+New baseline compared to the original paper.
 
 ### Train
 
 Training from scratch:
 ```
-python osr_main.py -g {GPU_ID} -d cifar10
+python osr_main.py -g {GPU_ID} -d {DATASET}
 ```
 
-## File organization 📑
+## File organization 
 
 The `core` folder contains model, training, and testing code, the `datasets` folder contains data loading and preprocessing code, and the `misc` folder contains other auxiliary code. The output and result will be saved in `logs` folder.
