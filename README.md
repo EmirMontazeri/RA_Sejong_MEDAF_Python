@@ -1,6 +1,6 @@
 # Exploring Diverse Representations for Open Set Recognition
 
-Official PyTorch Implementation of Our Work *[AAAI2024] Exploring Diverse Representations for Open Set Recognition*. 
+Original Paper *[AAAI2024] Exploring Diverse Representations for Open Set Recognition*. 
 
 [[arXiv](https://arxiv.org/pdf/2401.06521.pdf)]
 
