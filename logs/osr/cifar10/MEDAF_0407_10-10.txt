@@ -1,0 +1,6 @@
+MLS Only [0,1,0]
+SPLIT[1|5] => Accuracy: [96.983], AUROC: [0.892], AUPR_IN: [0.932], AUPR_OUT: [0.818], F1-score: [0.778]
+SPLIT[2|5] => Accuracy: [95.433], AUROC: [0.830], AUPR_IN: [0.868], AUPR_OUT: [0.751], F1-score: [0.752]
+SPLIT[3|5] => Accuracy: [98.200], AUROC: [0.883], AUPR_IN: [0.917], AUPR_OUT: [0.820], F1-score: [0.794]
+SPLIT[4|5] => Accuracy: [95.733], AUROC: [0.857], AUPR_IN: [0.893], AUPR_OUT: [0.797], F1-score: [0.776]
+SPLIT[5|5] => Accuracy: [97.083], AUROC: [0.837], AUPR_IN: [0.892], AUPR_OUT: [0.730], F1-score: [0.741]

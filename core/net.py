@@ -91,8 +91,8 @@ def build_backbone(img_size, backbone_name, projection_dim, inchan = 3):
         backbone = ResNet(output_dim = projection_dim, inchan = inchan, resprestride=1, res1ststride = 1, res2ndstride = 2)
         cam_size = int(img_size / 8)
     elif backbone_name == 'resnet34':
-        backbone = ResNet(output_dim = projection_dim, inchan = inchan, num_block = [3,4,6,3], resprestride=1, res1ststride = 2, res2ndstride = 2)
-        cam_size = int(img_size / 32)
+        backbone = ResNet(output_dim = projection_dim, inchan = inchan, num_block = [3,4,6,3], resprestride=1, res1ststride = 1, res2ndstride = 2)
+        cam_size = int(img_size / 8)
     else:
         valid_backbone = backbone_name
         raise Exception(f'Backbone \"{valid_backbone}\" is not defined.')

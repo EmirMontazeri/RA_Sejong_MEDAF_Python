@@ -1,0 +1,5 @@
+SPLIT[1|5] => Accuracy: [97.075], AUROC: [0.962], AUPR_IN: [0.990], AUPR_OUT: [0.863], F1-score: [0.907]
+SPLIT[2|5] => Accuracy: [97.350], AUROC: [0.952], AUPR_IN: [0.988], AUPR_OUT: [0.819], F1-score: [0.895]
+SPLIT[3|5] => Accuracy: [97.175], AUROC: [0.941], AUPR_IN: [0.984], AUPR_OUT: [0.804], F1-score: [0.893]
+SPLIT[4|5] => Accuracy: [97.350], AUROC: [0.941], AUPR_IN: [0.984], AUPR_OUT: [0.810], F1-score: [0.889]
+SPLIT[5|5] => Accuracy: [97.525], AUROC: [0.963], AUPR_IN: [0.991], AUPR_OUT: [0.870], F1-score: [0.913]

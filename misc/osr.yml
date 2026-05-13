@@ -5,7 +5,7 @@ resume     : False
 ckpt       : "_"
 
 loss_wgts  : [0.7,1.0,0.01]
-score_wgts : [1,0,0]           
+score_wgts : [0.5,0.5,0]           
 branch_opt : -1
 gate_temp  : 100
 
@@ -19,7 +19,7 @@ epoch_num  : 150
 batch_size : 128              
 save_step  : 10               
 test_step  : 1               
-backbone   : "resnet18"   
+backbone   : "resnet34"   
 
 optimizer  : "SGD"       
 lr         : 0.1             
