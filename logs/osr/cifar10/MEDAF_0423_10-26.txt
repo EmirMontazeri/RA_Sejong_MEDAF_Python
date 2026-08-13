@@ -1,6 +1,0 @@
-MSP + MLS [0.5,0.5,0] === 100 Epochs
-SPLIT[1|5] => Accuracy: [96.583], AUROC: [0.883], AUPR_IN: [0.926], AUPR_OUT: [0.806], F1-score: [0.767]
-SPLIT[2|5] => Accuracy: [95.100], AUROC: [0.826], AUPR_IN: [0.868], AUPR_OUT: [0.736], F1-score: [0.739]
-SPLIT[3|5] => Accuracy: [98.050], AUROC: [0.881], AUPR_IN: [0.917], AUPR_OUT: [0.815], F1-score: [0.788]
-SPLIT[4|5] => Accuracy: [95.567], AUROC: [0.836], AUPR_IN: [0.859], AUPR_OUT: [0.789], F1-score: [0.776]
-SPLIT[5|5] => Accuracy: [96.417], AUROC: [0.838], AUPR_IN: [0.889], AUPR_OUT: [0.740], F1-score: [0.734]

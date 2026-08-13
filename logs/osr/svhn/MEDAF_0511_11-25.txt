@@ -1,6 +1,0 @@
-ResNet34
-SPLIT[1|5] => Accuracy: [98.148], AUROC: [0.938], AUPR_IN: [0.965], AUPR_OUT: [0.888], F1-score: [0.890]
-SPLIT[2|5] => Accuracy: [97.558], AUROC: [0.960], AUPR_IN: [0.961], AUPR_OUT: [0.957], F1-score: [0.865]
-SPLIT[3|5] => Accuracy: [97.857], AUROC: [0.946], AUPR_IN: [0.957], AUPR_OUT: [0.929], F1-score: [0.877]
-SPLIT[4|5] => Accuracy: [97.642], AUROC: [0.949], AUPR_IN: [0.953], AUPR_OUT: [0.939], F1-score: [0.844]
-SPLIT[5|5] => Accuracy: [98.029], AUROC: [0.951], AUPR_IN: [0.975], AUPR_OUT: [0.897], F1-score: [0.897]

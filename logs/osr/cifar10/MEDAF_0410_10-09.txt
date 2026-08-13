@@ -1,6 +1,0 @@
-All three combined [0.5,0.5,1]
-SPLIT[1|5] => Accuracy: [96.950], AUROC: [0.863], AUPR_IN: [0.912], AUPR_OUT: [0.782], F1-score: [0.754]
-SPLIT[2|5] => Accuracy: [95.650], AUROC: [0.815], AUPR_IN: [0.859], AUPR_OUT: [0.732], F1-score: [0.738]
-SPLIT[3|5] => Accuracy: [97.933], AUROC: [0.844], AUPR_IN: [0.891], AUPR_OUT: [0.768], F1-score: [0.754]
-SPLIT[4|5] => Accuracy: [95.550], AUROC: [0.832], AUPR_IN: [0.861], AUPR_OUT: [0.783], F1-score: [0.769]
-SPLIT[5|5] => Accuracy: [97.000], AUROC: [0.799], AUPR_IN: [0.868], AUPR_OUT: [0.680], F1-score: [0.711]

@@ -1,6 +1,0 @@
-Feature norms Only [0,0,1]
-SPLIT[1|5] => Accuracy: [96.850], AUROC: [0.863], AUPR_IN: [0.911], AUPR_OUT: [0.782], F1-score: [0.755]
-SPLIT[2|5] => Accuracy: [95.667], AUROC: [0.814], AUPR_IN: [0.864], AUPR_OUT: [0.726], F1-score: [0.731]
-SPLIT[3|5] => Accuracy: [98.083], AUROC: [0.832], AUPR_IN: [0.881], AUPR_OUT: [0.751], F1-score: [0.751]
-SPLIT[4|5] => Accuracy: [95.667], AUROC: [0.825], AUPR_IN: [0.852], AUPR_OUT: [0.775], F1-score: [0.764]
-SPLIT[5|5] => Accuracy: [97.117], AUROC: [0.787], AUPR_IN: [0.859], AUPR_OUT: [0.666], F1-score: [0.710]

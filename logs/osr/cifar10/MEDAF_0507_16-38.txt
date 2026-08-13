@@ -1,6 +1,0 @@
-ResNet34 - Origial cam_size 32
-SPLIT[1|5] => Accuracy: [96.617], AUROC: [0.893], AUPR_IN: [0.933], AUPR_OUT: [0.819], F1-score: [0.777]
-SPLIT[2|5] => Accuracy: [95.600], AUROC: [0.836], AUPR_IN: [0.883], AUPR_OUT: [0.747], F1-score: [0.742]
-SPLIT[3|5] => Accuracy: [98.050], AUROC: [0.891], AUPR_IN: [0.926], AUPR_OUT: [0.826], F1-score: [0.799]
-SPLIT[4|5] => Accuracy: [95.483], AUROC: [0.843], AUPR_IN: [0.871], AUPR_OUT: [0.792], F1-score: [0.774]
-SPLIT[5|5] => Accuracy: [97.283], AUROC: [0.852], AUPR_IN: [0.897], AUPR_OUT: [0.757], F1-score: [0.755]

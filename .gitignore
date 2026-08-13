@@ -220,3 +220,4 @@ datasets/cifar-10-batches-py/data_batch_4
 datasets/cifar-10-batches-py/data_batch_5
 datasets/cifar-10-batches-py/readme.html
 datasets/cifar-10-batches-py/test_batch
+logs/
