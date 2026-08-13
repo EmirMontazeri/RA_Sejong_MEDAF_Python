@@ -1,5 +1,0 @@
-easydict
-numpy
-Pillow
-PyYAML
-scikit_learn
